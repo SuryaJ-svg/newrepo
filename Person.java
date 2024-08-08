@@ -1,18 +1,17 @@
 public class Person {
     public static void main(String[] args) {
-        int age = 16;
+    int age = 16;
 
-    public Static void currentage int (age) {
+    public static void currentage () {
         System.out.println(age);
-        
     }
 
-    public Static void older int (age) {
+    public static void older () {
         age++;
         System.out.println(age);
     }
 
-    public Static void younger int (age) {
+    public static void younger () {
         age--;
         System.out.println(age);
     }
