@@ -16,7 +16,7 @@ public class Person {
         age--;
         System.out.println(age);
     }
-    public static void younger (int age, String name) {
+    public static void multiparameter (int age, String name) {
         int age = newAge;
         return newAge;
     }

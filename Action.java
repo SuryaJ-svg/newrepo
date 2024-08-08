@@ -4,5 +4,6 @@ public class Action {
         obj.currentage();
         obj.older();
         obj.younger();
+        obj.multiparameter();
 }
 }
