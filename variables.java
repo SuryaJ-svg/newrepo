@@ -4,8 +4,8 @@ public class variables {
         int number = 5;
         System.out.println(number);
 
-        final String WORD = "hamerheads";
-        System.out.println(WORD);
+        final String STRING = "hamerheads";
+        System.out.println(STRING);
 
     }
 }
