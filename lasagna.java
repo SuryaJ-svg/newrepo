@@ -4,16 +4,15 @@ public class lasagna {
 
     }
     public int expectedMinutesInOven(){
-        minutes = 40;
+        return cookingTime;
     }
 
-    public int remainingMinutesInOven(int newMinutes ){
-        newMinutes = 60 - minutes;
+    public int remainingMinutesInOven(int minPassed){
+        return cookingTime - minPassed;
     }
 
     public int preparationTime(int layers){
-        int prepMinutes = layers*2;
-        return prepMinutes;
+        return layers * 2;
     }
 
 }
